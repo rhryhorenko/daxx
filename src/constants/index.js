@@ -1,0 +1,3 @@
+export const PRODUCTS_SUCCESS = Symbol('PRODUCTS_SUCCESS');
+
+export const SINGLE_PRODUCT_SUCCESS = Symbol('SINGLE_PRODUCT_SUCCESS');
