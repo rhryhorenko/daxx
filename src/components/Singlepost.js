@@ -4,7 +4,7 @@ import '../App.css';
 const SinglePost = props => {
   useEffect(() => {
     props.getSingleProduct(props.match.params.id);
-  });
+  }, []);
   const { post_title, price, images } = props.product;
   return (
     <div className="single_product-container">

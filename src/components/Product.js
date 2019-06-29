@@ -15,7 +15,7 @@ const ProductList = props => {
   return (
     <div className="product-container">
       <Link to={`/product/${post_id}`} className="link-to-product">
-        <img src={images}></img>
+        <img src={images} alt="Product Photo" />
         <p className="title">{post_title}</p>
       </Link>
       <div className="rating">
