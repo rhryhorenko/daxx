@@ -12,9 +12,9 @@ body{
 .col {
   display: block;
   float:left;
-  margin: 1% 0 1% 2.5%;
+  margin: 1% 0 7% 2.5%;
 }
-.col:first-child { margin-left: 20px; }
+/*.col:first-child { margin-left: 20px; }*/
 
 .products-container:before,
 .products-container:after { content:""; display:table; }
